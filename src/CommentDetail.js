@@ -12,7 +12,7 @@ export const CommentDetail = props => {
           {props.author}
         </a>
         <div className="metadata">
-          <span className="date">{props.time}</span>
+          <span className="date">{props.timeAgo}</span>
         </div>
         <div className="text">Nice blog post</div>
       </div>
